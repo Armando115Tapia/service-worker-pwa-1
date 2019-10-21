@@ -3,6 +3,5 @@
 // }
 
 if (navigator.serviceWorker) {
-  console.log("Podemos utilizar el SW");
   navigator.serviceWorker.register("/sw.js");
 }
